@@ -1,0 +1,3 @@
+/home/pc/Documents/Projects/Vime/src/vime.client/bin/Release/net8.0/publish/vime.client.dll
+/home/pc/Documents/Projects/Vime/src/vime.client/bin/Release/net8.0/publish/vime.client.deps.json
+/home/pc/Documents/Projects/Vime/src/vime.client/bin/Release/net8.0/publish/vime.client.pdb

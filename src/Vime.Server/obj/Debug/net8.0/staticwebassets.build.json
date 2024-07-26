@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "B4EG2XernJwqQNvNffMt33Eu3PIRvNczZsTCI5DHmb4=",
+  "Source": "Vime.Server",
+  "BasePath": "_content/Vime.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

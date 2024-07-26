@@ -1,0 +1,16 @@
+<div class="message-container">
+  <div class="message-box">
+    <div *ngFor="let message of messages" class="message">
+      <p><b>{{ message.author }}</b>: {{ message.message }}</p>
+    </div>
+  </div>
+</div>
+
+<mat-form-field class="message-input">
+    <mat-label>New Comment</mat-label>
+    <textarea matInput [(ngModel)]="mensajeInput" placeholder="Ex. It makes me feel..."></textarea>
+  </mat-form-field>
+
+<button (click)="sendMessage()">Send</button>
+
+

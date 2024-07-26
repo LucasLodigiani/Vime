@@ -1,0 +1,28 @@
+<h1>Últimas salas creadas:</h1>
+  <a routerLink="/rooms/create" routerLinkActive="active" class="router-link-clear">
+      <button mat-flat-button>Nueva sala +</button>
+  </a>
+<div class="room-cards">
+  @if(rooms !== null ) { @for(room of rooms; track room.id) {
+  <mat-card class="room-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title>{{ room.title }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-footer class="room-card-footer">
+      <mat-chip-set aria-label="Providers">
+        <mat-chip>Sala #{{ room.id }}</mat-chip>
+        <mat-chip style="background-color: rgb(106, 221, 236)">{{
+          room.provider | providerPipe
+        }}</mat-chip>
+        <mat-chip style="background-color: rgb(209, 151, 133)"
+          ><a [routerLink]="['/rooms/', room.id]" class="router-link-clear"
+            >Entrar</a
+          ></mat-chip
+        >
+      </mat-chip-set>
+    </mat-card-footer>
+  </mat-card>
+  } }@else{
+  <p>No hay ninguna sala creada</p>
+  }
+</div>

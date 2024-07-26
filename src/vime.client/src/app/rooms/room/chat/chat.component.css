@@ -1,0 +1,28 @@
+
+.new-message-box{
+   width: 400px;
+  height: 100px;
+}
+
+.message-container {
+  height: 280px; /* Altura máxima de la caja de mensajes */
+  width: 400px;
+  overflow-y: auto; /* Agrega scroll vertical si los mensajes exceden la altura máxima */
+  border: 1px solid #ccc; /* Borde para la caja de mensajes */
+  background-color: aliceblue;
+
+}
+
+.message-box {
+  display: flex;
+  flex-direction: column; /* Hace que los mensajes se apilen de abajo hacia arriba */
+}
+
+.message {
+  padding: 5px;
+  border-bottom: 1px solid #eee; /* Borde entre mensajes */
+}
+
+.message-input{
+  width: 400px;
+}

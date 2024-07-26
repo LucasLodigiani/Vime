@@ -1,0 +1,17 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.loginbuttons {
+  display: flex;
+}
+main {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.router-link-clear{
+  text-decoration: none;
+  color: inherit;
+}

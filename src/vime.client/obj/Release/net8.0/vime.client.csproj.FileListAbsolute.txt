@@ -1,0 +1,12 @@
+/home/pc/Documents/Projects/Vime/src/vime.client/bin/Release/net8.0/vime.client.deps.json
+/home/pc/Documents/Projects/Vime/src/vime.client/bin/Release/net8.0/vime.client.dll
+/home/pc/Documents/Projects/Vime/src/vime.client/bin/Release/net8.0/vime.client.pdb
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/vime.client.GeneratedMSBuildEditorConfig.editorconfig
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/vime.client.AssemblyInfoInputs.cache
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/vime.client.AssemblyInfo.cs
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/vime.client.csproj.CoreCompileInputs.cache
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/vime.client.sourcelink.json
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/vime.client.dll
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/refint/vime.client.dll
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/vime.client.pdb
+/home/pc/Documents/Projects/Vime/src/vime.client/obj/Release/net8.0/ref/vime.client.dll

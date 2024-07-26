@@ -1,0 +1,8 @@
+<!--Verifico que la url del video este definida-->
+<div class="videochat-container">
+  @if(videoUrl){
+  <app-videoplayer [videoUrl]="videoUrl"></app-videoplayer>
+  }
+
+  <app-chat></app-chat>
+</div>

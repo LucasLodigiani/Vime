@@ -1,0 +1,11 @@
+<plyr
+  style="display: block; width: 640px"
+  plyrTitle="Video 1"
+  [plyrPlaysInline]="true"
+  [plyrSources]="videoSources"
+  (plyrInit)="player = $event"
+  (plyrPause)="paused($event)"
+  (plyrSeeked)="updateTime($event)"
+></plyr>
+
+

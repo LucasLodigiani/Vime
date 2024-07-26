@@ -1,0 +1,25 @@
+.room-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* Espacio entre las tarjetas */
+}
+
+.room-card {
+  flex: 0 0 calc(50% - 10px);
+  /* Dos tarjetas por fila */
+  max-width: calc(50% - 10px);
+  /* Dos tarjetas por fila */
+  margin-bottom: 20px;
+  /* Espacio entre filas */
+}
+
+.room-card-footer{
+  margin-left: 10px;
+}
+
+.router-link-clear{
+  text-decoration: none;
+  color: inherit;
+
+}

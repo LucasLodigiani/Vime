@@ -1,0 +1,17 @@
+
+<form [formGroup]="createRoomForm" (ngSubmit)="onSubmit()">
+  <label>
+    Title:
+    <input type="text" formControlName="title" />
+  </label>
+  <label>
+    Video Url:
+    <input type="text" formControlName="videoUrl" />
+  </label>
+  <button type="submit">Enviar</button>
+
+  @if(isLoading){
+    <p>Loading....</p>
+  }
+
+</form>

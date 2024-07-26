@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Vime.Server.props" />
+</Project>

@@ -1,0 +1,23 @@
+<mat-toolbar color="primary">
+  <a class="router-link-clear" routerLink="/" routerLinkActive="active">
+    <h1>Vime</h1>
+  </a>
+  <span class="spacer"></span>
+  <div class="loginbuttons">
+    @if(!isAuthenticated){
+    <a routerLink="auth/login" routerLinkActive="active">
+      <button mat-button>Login</button>
+    </a>
+    <a routerLink="auth/register" routerLinkActive="active">
+      <button mat-button>Register</button>
+    </a>
+    }@else {
+      <button mat-button>Hello, {{username}}</button>
+      <button mat-button (click)="logout()">Logout</button>
+    }
+  </div>
+</mat-toolbar>
+
+<main class="main">
+  <router-outlet />
+</main>

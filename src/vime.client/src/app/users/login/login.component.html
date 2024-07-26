@@ -1,0 +1,17 @@
+<h2>Iniciar sesión:</h2>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <label>
+    Username:
+    <input type="text" formControlName="username" />
+  </label>
+  <label>
+    Password:
+    <input type="password" formControlName="password" />
+  </label>
+  <button type="submit">Enviar</button>
+
+  @if(isLoading){
+  <p>Loading....</p>
+  }
+
+</form>
